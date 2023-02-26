@@ -1,0 +1,11 @@
+button {
+  background: transparent;
+  font-size: var(--text-xs);
+  font-weight: 800;
+  padding: 0.625rem 1.875rem 0.625rem 1.875rem;
+  color: var(--text-color);
+  border: 1px solid var(--button);
+  border-radius: 0.375rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}

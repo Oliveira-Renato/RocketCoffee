@@ -1,0 +1,66 @@
+section {
+
+  header {
+    padding: 2.312rem 1.562rem 1.562rem 1.625rem ;
+    border-bottom: 1px solid var(--border);
+
+    >div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  main {
+    height: 100%;
+    background-image: url(../assets/blur-mobile.png);
+    background-size: cover;
+
+    >div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+
+      h2 {
+        margin: 5.531rem 1.75rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: var(--text-md);
+        line-height: 2.5rem;
+
+        @media screen and (min-width:470px) and (max-width:428px) {
+          margin: 3.531rem   1.75rem;
+                  
+        }
+      }
+
+      >div {
+        margin-top: 6.125rem;
+        text-align: center;
+        @media screen and (min-width:470px) and (max-width:428px) {
+          margin-top: 4.125rem;
+        }
+
+        h1 {
+          font-size: var(--text-lg);
+          font-weight: 700;
+        }
+        .coffee-stroke:after {
+          content: '<GreatCode/>';
+          font-size: var(--text-lg);
+          color: var(--background);
+          line-height: 4.25rem;
+          text-shadow: -1px -1px 0 var(--button), 
+              1px -1px 0 var(--button), 
+              -1px 1px 0 var(--button), 
+              1px 1px 0 var(--button);
+        }
+      }
+
+      >img {
+        min-width: 372px;
+        max-width: 428px;
+      }
+    }
+  }
+}

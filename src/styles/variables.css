@@ -1,0 +1,14 @@
+:root {
+  --background: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+  --text-xl: 5rem;
+  --text-lg: 3.175rem;
+  --text-md: 1.875rem;
+  --text-s2: 1.125rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.687rem;
+}
